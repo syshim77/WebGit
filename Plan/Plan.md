@@ -4,8 +4,8 @@
   * Swift
   * Android Game Programming [book](http://www.hanbit.co.kr/store/books/look.php?p_code=B1205603332)
 
-- 캐나다 어학연수 1년
-![Canada](http://cfile3.uf.tistory.com/image/211694335416D80324043A)
+- 캐나다 어학연수 1년<br  />  
+  ![Canada](http://cfile3.uf.tistory.com/image/211694335416D80324043A)
 
 - 3학년
   * C++, Java
