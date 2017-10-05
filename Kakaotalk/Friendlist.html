@@ -2,42 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="Friendlist.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Title</title>
 </head>
 <body>
 <header class="header">
     <section class="top-menu">
-        <span class="friend">친구</span>
+        <span class="header-friend">친구</span>
         <span class="number">233</span>
-        <span class="edit">편집</span>
+        <span class="edit">
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </span>
     </section>
     <section class="bottom-menu">
-        <div class="menu-item">친구목록</div>
-        <div class="menu-item">채팅목록</div>
-        <div class="menu-item">채널</div>
-        <div class="menu-item">설정</div>
+        <div class="menu-item active">
+            <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="menu-item">
+            <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="menu-item">
+            <i class="fa fa-wpforms fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="menu-item">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+        </div>
     </section>
 </header>
 
 <section class="friends">
-    <div class="friend">
-        <div class="profile">
-            <p>내 프로필</p>
-        </div>
-        <div class="images">
-            <img class="image" src="images/mine.jpg" alt="꾸꾸리">
-        </div>
-        <div class="names">
-            <p class="name">꾸꾸리</p>
-        </div>
-        <div class="messages">
-            <p class="message">♡</p>
-        </div>
+    <div class="profile">
+        <p>내 프로필</p>
     </div>
     <div class="friend">
-        <div class="profile">
-            <p>추천친구</p>
+        <div class="images">
+            <img class="image" src="images/수연.jpg" alt="soo-yeon">
         </div>
+        <div class="names">
+            <p class="name">수연</p>
+        </div>
+        <div class="messages">
+            <span class="message">땅!</span>
+        </div>
+    </div>
+    <div class="profile">
+        <p>추천친구</p>
+    </div>
+    <div class="friend">
         <div class="images">
             <img class="image" src="images/lion.png" alt="라이언">
         </div>
@@ -45,27 +57,49 @@
             <p class="name">새로운 친구를 만나보세요!</p>
         </div>
         <div class="messages">
-            <p class="message">93</p>
+            <span class="message none">93 ></span>
         </div>
     </div>
+    <div class="profile">
+        <p>즐겨찾기</p>
+    </div>
     <div class="friend">
-        <div class="profile">
-            <p>즐겨찾기</p>
-        </div>
         <div class="images">
-            <img class="image" src="images/often.png" alt="best friend">
+            <img class="image" src="images/준호오빠.jpg" alt="jun-ho">
         </div>
         <div class="names">
-            <p class="name">이름</p>
+            <p class="name">준호오빠</p>
         </div>
         <div class="messages">
-            <p class="message">♡</p>
+            <span class="message">야레야레</span>
         </div>
     </div>
     <div class="friend">
-        <div class="profile">
-            <p>그룹</p>
+        <div class="images">
+            <img class="image" src="images/준이오빠.jpg" alt="jun">
         </div>
+        <div class="names">
+            <p class="name">준이오빠</p>
+        </div>
+        <div class="messages">
+            <span class="message">얘들아 즐거운 과제해야지 :)</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/재형.jpg" alt="jae-hyung">
+        </div>
+        <div class="names">
+            <p class="name">재형</p>
+        </div>
+        <div class="messages">
+            <span class="message">#인생샷 #기분좋아짐</span>
+        </div>
+    </div>
+    <div class="profile">
+        <p>그룹</p>
+    </div>
+    <div class="friend">
         <div class="images">
             <img class="image" src="images/plus.png" alt="plus friend">
         </div>
@@ -73,30 +107,131 @@
             <p class="name">플러스친구</p>
         </div>
         <div class="messages">
-            <p class="message">17</p>
+            <span class="message none">17 ></span>
+        </div>
+    </div>
+    <div class="profile">
+        <p>친구</p>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/강욱오빠.jpg" alt="kang-wook">
+        </div>
+        <div class="names">
+            <p class="name">강욱오빠</p>
+        </div>
+        <div class="messages">
+            <span class="message">♡</span>
         </div>
     </div>
     <div class="friend">
-        <div class="profile">
-            <p>친구</p>
-        </div>
         <div class="images">
-            <img class="image" src="images/neo.gif" alt="네오">
+            <img class="image" src="images/규림.jpg" alt="gu-rim">
         </div>
         <div class="names">
-            <p class="name">이름</p>
+            <p class="name">규림</p>
         </div>
         <div class="messages">
-            <p class="message">나를 위로하는 것은 나다.</p>
+            <span class="message">아↘진짜↗요?</span>
         </div>
+    </div>
+    <div class="friend">
         <div class="images">
-            <img class="image" src="images/apeach.jpg" alt="어피치">
+            <img class="image" src="images/대환.jpg" alt="dae-hwan">
         </div>
         <div class="names">
-            <p class="name">이름</p>
+            <p class="name">대환</p>
         </div>
         <div class="messages">
-            <p class="message">상메</p>
+            <span class="message">하핳</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/민우.jpg" alt="min-woo">
+        </div>
+        <div class="names">
+            <p class="name">민우</p>
+        </div>
+        <div class="messages">
+            <span class="message">착한 미누미누</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/보윤.jpg" alt="bo-yun">
+        </div>
+        <div class="names">
+            <p class="name">보윤</p>
+        </div>
+        <div class="messages">
+            <span class="message">쫄귀탱</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/성현.jpg" alt="sung-hyun">
+        </div>
+        <div class="names">
+            <p class="name">성현</p>
+        </div>
+        <div class="messages">
+            <span class="message">골골골...</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/소정.jpg" alt="so-jung">
+        </div>
+        <div class="names">
+            <p class="name">소정</p>
+        </div>
+        <div class="messages">
+            <span class="message">과거의 소정이에게 물어봐주세요.</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/영빈오빠.jpg" alt="young-bin">
+        </div>
+        <div class="names">
+            <p class="name">영빈오빠</p>
+        </div>
+        <div class="messages">
+            <span class="message">비율깡패</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/이령.jpg" alt="lee-lyung">
+        </div>
+        <div class="names">
+            <p class="name">이령</p>
+        </div>
+        <div class="messages">
+            <span class="message">♡</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/지민.jpg" alt="ji-min">
+        </div>
+        <div class="names">
+            <p class="name">지민</p>
+        </div>
+        <div class="messages">
+            <span class="message">히말라야 너무 맛있어요! (당당)</span>
+        </div>
+    </div>
+    <div class="friend">
+        <div class="images">
+            <img class="image" src="images/취선.jpg" alt="ji-sun">
+        </div>
+        <div class="names">
+            <p class="name">취선</p>
+        </div>
+        <div class="messages">
+            <span class="message">아니 오빠!</span>
         </div>
     </div>
 </section>

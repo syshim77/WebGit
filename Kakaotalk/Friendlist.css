@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+.top-menu {
+    height: 100px;
+    line-height: 100px;
+    background-color: #523537;
+}
+
+.top-menu > .header-friend {
+    color: white;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.top-menu > .number {
+    color: yellow;
+    font-size: x-large;
+}
+
+.top-menu > .edit {
+    float: right;
+    color: white;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.bottom-menu {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    background-color: #f2f2f5;
+}
+
+.menu-item {
+    width: 25%;
+    text-align: center;
+    color: rgba(82, 54, 55, 0.2);
+    font-size: large;
+}
+
+.active {
+    color: #523537;
+    border-bottom: 2px solid #523537;
+}
+
+.friend {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.profile {
+    margin-left: 20px;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #f2f2f5;
+}
+
+.profile > p {
+    color: #a3a3a3;
+}
+
+.images {
+    width: 30%;
+}
+
+.image {
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
+    margin: 15px;
+}
+
+.names {
+    width: 50%;
+}
+
+.name {
+    height: 150px;
+    line-height: 150px;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.messages {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.message {
+    color: gray;
+    font-size: large;
+    height: 180px;
+    line-height:180px;
+    padding: 15px;
+    background-color: #f2f2f5;
+}
+
+.none {
+    background-color: white;
+    font-size: x-large;
+}
