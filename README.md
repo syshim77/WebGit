@@ -25,3 +25,12 @@
 **4주차**
 - Web : Kakaotalk Chatlist 구현(*HTML + CSS*)
   * [*for more information*](http://slides.com/joonhojeon/web-git-4#/)
+
+**5주차**
+- Git
+  * push error
+  * pull vs fetch(remote에만 존재하는 data를 local에 동기화)
+    * pull : 자동으로 merge까지
+    * fetch : FETCH_HEAD라는 숨겨진 branch로 가져옴(merge x, 읽기전용 branch, pull보다 선호)
+  * conflict(merge할 때 두 branch의 내용이 다를 때 발생)
+  * [*for more information*](http://slides.com/leejun6694/web-git-5#/)
