@@ -34,3 +34,22 @@
     * fetch : FETCH_HEAD라는 숨겨진 branch로 가져옴(merge x, 읽기전용 branch, pull보다 선호)
   * conflict(merge할 때 두 branch의 내용이 다를 때 발생)
   * [*for more information*](http://slides.com/leejun6694/web-git-5#/)
+
+**6주차**
+- Git
+  * 그동안 못한 과제 하기
+  * [*for more information*](http://slides.com/leejun6694/web-git-6#/)
+- Web
+  * javascript
+    * control flows : console.log("");
+    * variables, functions, arrays, loops
+  * event 발생시키기
+    * onclick = "func()"
+    * onmouseover = "func()"
+  * [*for more information*](http://slides.com/joonhojeon/web-git-5#/9)
+  * jQuery
+    * $(selector).action(function()); : 어떤 요소(selector)에 어떤 액션이 되면 함수를 실행
+    * getElementById -> $('#id')
+    * getElementsByClassName -> $('.class')
+  * Kakaotalk Chatlist 완성
+  * [*for more information*](http://slides.com/joonhojeon/web-git-6#/)
